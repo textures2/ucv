@@ -12,6 +12,8 @@ import android.widget.ImageView;
 
 import com.example.pbense.ucv.R;
 
+// Following example:
+//http://www.techrepublic.com/blog/software-engineer/bouncing-a-ball-on-androids-canvas/
 public class AnimatedView extends ImageView {
     private Context mContext;
     int x = -1;
