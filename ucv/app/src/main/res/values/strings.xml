@@ -1,12 +1,15 @@
 <resources>
     <string name="app_name">ucv</string>
     <string name="loan_assumptions_title">Loan Basics</string>
-    <string name="loan_assumptions_explanation">To begin, you must first specify the loan amount,
-        term in months, and the interst rate
+    <string name="loan_assumptions_explanation">To begin, you must provide the loan amount,
+        term in months, and the interest rate.
     </string>
-    <string name="loan_amount_title">Loan Amount</string>
-    <string name="loan_duration_months">Duration in months</string>
+    <string name="loan_amount">Loan Amount</string>
+    <string name="loan_amount_hint">E.g. 250000</string>
+    <string name="loan_duration_months">Duration (in months)</string>
     <string name="loan_duration_months_hint">120 (10 years)</string>
     <string name="loan_rate">Interest rate</string>
     <string name="loan_rate_hint">6.5</string>
+    <string name="loan_payment">Loan payment</string>
+    <string name="calculate">Calculate</string>
 </resources>

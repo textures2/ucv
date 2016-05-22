@@ -27,7 +27,7 @@ public class RentalCalculator {
      * payment.
      */
     public double getMonthlyPayment(
-            double loanAmount, int termInMonths, double interestRate) {
+            double loanAmount, int durationInMonths, double interestRate) {
         // Convert interest rate into a decimal
         // eg. 6.5% = 0.065
         interestRate /= 100.0;
@@ -36,7 +36,7 @@ public class RentalCalculator {
         double monthlyRate = interestRate / 12.0;
         // The Math.pow() method is used calculate values raised to a power
         return (loanAmount * monthlyRate) /
-                        (1 - Math.pow(1 + monthlyRate, -termInMonths));
+                        (1 - Math.pow(1 + monthlyRate, -durationInMonths));
     }
 
     /**
