@@ -12,6 +12,7 @@
     <string name="loan_rate_hint">6.5</string>
     <string name="loan_payment">Loan payment</string>
     <string name="calculate">Calculate</string>
+    <string name="reset">Reset</string>
 
     <string name="rental_calculator">Rental Calculator</string>
 </resources>

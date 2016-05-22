@@ -24,7 +24,7 @@
             android:id="@+id/loan_amount_hint"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/loan_amount_hint" />
+            android:hint="@string/loan_amount_hint" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="fill_parent"
@@ -37,7 +37,7 @@
             android:id="@+id/loan_duration_months_hint"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/loan_duration_months_hint" />
+            android:hint="@string/loan_duration_months_hint" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="fill_parent"
@@ -50,7 +50,7 @@
             android:id="@+id/loan_rate_hint"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/loan_rate_hint" />
+            android:hint="@string/loan_rate_hint" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="fill_parent"
@@ -64,9 +64,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </LinearLayout>
-    <Button
-        android:id="@+id/calculate_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/calculate"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/calculate_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calculate"/>
+        <Button
+            android:layout_width="@+id/reset_button"
+            android:layout_height="wrap_content"
+            android:text="@string/reset" />
+    </LinearLayout>
+
 </LinearLayout>
