@@ -20,4 +20,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/rental_calculator"/>
+    <Button
+        android:layout_below="@+id/rental_calculator_button"
+        android:id="@+id/lbounce_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bounce Ball"/>
 </RelativeLayout>
