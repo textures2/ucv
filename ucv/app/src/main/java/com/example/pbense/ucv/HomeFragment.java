@@ -8,10 +8,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import com.example.lbounce.BounceFragment;
 import com.example.pbense.ucv.rentalcalculator.RentalCalculatorFragment;
 
 public class HomeFragment extends Fragment {
     Button rentalCalculatorButton;
+    Button lbounceButton;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -28,6 +30,20 @@ public class HomeFragment extends Fragment {
                         .commit();
             }
         });
+
+        lbounceButton = (Button) rootView.findViewById(R.id.lbounce_button);
+        lbounceButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.fragment_holder, new BounceFragment())
+                        .addToBackStack(null)
+                        .commit();
+            }
+        });
+
+
         return rootView;
     }
 }
