@@ -16,7 +16,7 @@ import com.example.pbense.ucv.R;
  */
 public class RentalCalculatorFragment extends Fragment {
 
-    RentalCalculator rc = new RentalCalculator();
+   // RentalCalculator rc = new RentalCalculator();
 
     Button calculateButton;
     TextView paymentAmount;

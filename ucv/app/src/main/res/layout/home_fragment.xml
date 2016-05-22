@@ -10,7 +10,14 @@
     tools:context="com.example.pbense.ucv.HomeActivity">
 
     <TextView
+        android:id="@+id/hello_world"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+    <Button
+        android:layout_below="@+id/hello_world"
+        android:id="@+id/rental_calculator_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rental_calculator"/>
 </RelativeLayout>
